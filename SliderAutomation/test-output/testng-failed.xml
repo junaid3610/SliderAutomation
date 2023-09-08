@@ -5,7 +5,11 @@
     <classes>
       <class name="Testcases.HomepageTestCases">
         <methods>
-          <include name="AmazonSignInClick"/>
+          <include name="AccordianClick"/>
+          <include name="TotalLinks"/>
+          <include name="draggableItems"/>
+          <include name="AutoCompletetext"/>
+          <include name="ClickOnThemes"/>
           <include name="driverInitialization"/>
         </methods>
       </class> <!-- Testcases.HomepageTestCases -->

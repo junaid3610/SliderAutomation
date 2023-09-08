@@ -1,20 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="1" total="7" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-07T19:07:18 IST" name="Default suite" finished-at="2023-09-07T19:07:39 IST" duration-ms="20584">
+  <suite started-at="2023-09-08T17:02:38 IST" name="Default suite" finished-at="2023-09-08T17:02:59 IST" duration-ms="21442">
     <groups>
     </groups>
-    <test started-at="2023-09-07T19:07:18 IST" name="Default test" finished-at="2023-09-07T19:07:39 IST" duration-ms="20584">
+    <test started-at="2023-09-08T17:02:38 IST" name="Default test" finished-at="2023-09-08T17:02:59 IST" duration-ms="21442">
       <class name="Testcases.HomepageTestCases">
-        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.HomepageTestCases@79da8dc5]" started-at="2023-09-07T19:07:18 IST" name="driverInitialization" finished-at="2023-09-07T19:07:38 IST" duration-ms="20034" status="PASS">
+        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:38 IST" name="driverInitialization" finished-at="2023-09-08T17:02:50 IST" duration-ms="12764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitialization -->
-        <test-method signature="AmazonSignInClick()[pri:0, instance:Testcases.HomepageTestCases@79da8dc5]" started-at="2023-09-07T19:07:38 IST" name="AmazonSignInClick" finished-at="2023-09-07T19:07:39 IST" duration-ms="459" status="PASS">
+        <test-method signature="draggableItems()[pri:-1, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:50 IST" name="draggableItems" finished-at="2023-09-08T17:02:52 IST" duration-ms="1083" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AmazonSignInClick -->
+        </test-method> <!-- draggableItems -->
+        <test-method signature="SliderSearchBox()[pri:1, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:52 IST" name="SliderSearchBox" finished-at="2023-09-08T17:02:52 IST" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SliderSearchBox -->
+        <test-method signature="TotalLinks()[pri:2, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:52 IST" name="TotalLinks" finished-at="2023-09-08T17:02:52 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TotalLinks -->
+        <test-method signature="AccordianClick()[pri:3, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:52 IST" name="AccordianClick" finished-at="2023-09-08T17:02:55 IST" duration-ms="2740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccordianClick -->
+        <test-method signature="ClickOnThemes()[pri:4, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:55 IST" name="ClickOnThemes" finished-at="2023-09-08T17:02:59 IST" duration-ms="4298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnThemes -->
+        <test-method signature="AutoCompletetext()[pri:5, instance:Testcases.HomepageTestCases@53976f5c]" started-at="2023-09-08T17:02:59 IST" name="AutoCompletetext" finished-at="2023-09-08T17:02:59 IST" duration-ms="210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AutoCompletetext -->
       </class> <!-- Testcases.HomepageTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
