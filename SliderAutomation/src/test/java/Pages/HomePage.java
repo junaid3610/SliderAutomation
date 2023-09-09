@@ -1,5 +1,8 @@
 package Pages;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -50,6 +53,15 @@ public class HomePage {
 	@FindBy(xpath="//a[@href=\"https://www.manning.com/books/jquery-ui-in-action\"]")
 	private WebElement UiJqr; 
 	
+//****	// hovering the links( findbys not supporting in this programme)
+//	@FindBys(xpath="//ul[@class=\"list-unstyled\"]/li")
+//	private WebElement hvrlinks;
+	
+	@FindBy(xpath="//i[text()=\"Foreword by Scott Gonzalez\"]")
+	private WebElement frwrdscott;
+	
+	@FindBy(xpath="(//span[@class=\"header-icon-label\"])[8]")
+	private WebElement signin;
 	
 	
 	
@@ -108,12 +120,40 @@ public class HomePage {
 		RadioBtn.click();
 	}
 	
-	
-	
 	public void JqueryUI()
 	{
 		UiJqr.click();
 	}
 	
-
+	// Check this code, tell me for updation
+	public void hover()
+	{
+		List<WebElement> links = driver.findElements(By.xpath("//ul[@class=\"list-unstyled\"]/li"));
+		for(int i=0;i<=links.size();i++) 
+		{
+			WebElement link = links.get(i);
+			Actions act = new Actions(driver);
+			act.moveToElement(link);
+			act.build().perform();
+			
+			
+		}
+	
+	
+	}
+	
+	public void forwordclick()
+	{
+		frwrdscott.click();
+	}
+	
+	public void SigIn() 
+	{
+		signin.click();
+	}
+	
+	
+	
+	
+	
 }

@@ -1,5 +1,9 @@
 package Testcases;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.*;
 import Driver.Base;
 import Pages.HomePage;
@@ -72,6 +76,36 @@ public class HomepageTestCases extends Base {
 		HomePage hp = new HomePage(driver);
 		hp.JqueryUI();
 	}
+	
+	@Test(enabled = false)
+	public void HoverToLinks()
+	{
+		HomePage hp = new HomePage(driver);
+		hp.hover();
+	}
+	
+	
+	@Test(priority = 8)
+	public void ClickOnForwordScott()
+	{
+		HomePage hp = new HomePage(driver);
+		hp.forwordclick();
+	}
+	
+	
+	@Test(enabled = false)
+	public void ClickOnSignInBtn() 
+	{
+		WebDriverWait wait = new WebDriverWait(driver, null);
+		WebElement clickOn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class=\\\"header-icon-label\\\"])[8]")));
+		clickOn.click();
+		
+		
+	}
+	
+	
+	
+	
 	
 	
 	

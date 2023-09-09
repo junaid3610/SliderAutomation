@@ -5,7 +5,7 @@
     <classes>
       <class name="Testcases.HomepageTestCases">
         <methods>
-          <include name="RadioInsuranceButton"/>
+          <include name="ClickOnSignInBtn"/>
           <include name="driverInitialization"/>
         </methods>
       </class> <!-- Testcases.HomepageTestCases -->

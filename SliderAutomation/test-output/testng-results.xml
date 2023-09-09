@@ -1,48 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="9" passed="8" failed="0" skipped="0">
+<testng-results ignored="2" total="12" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-09T11:56:33 IST" name="Default suite" finished-at="2023-09-09T11:57:32 IST" duration-ms="58315">
+  <suite started-at="2023-09-09T15:45:57 IST" name="Default suite" finished-at="2023-09-09T15:46:25 IST" duration-ms="27319">
     <groups>
     </groups>
-    <test started-at="2023-09-09T11:56:33 IST" name="Default test" finished-at="2023-09-09T11:57:32 IST" duration-ms="58315">
+    <test started-at="2023-09-09T15:45:57 IST" name="Default test" finished-at="2023-09-09T15:46:25 IST" duration-ms="27319">
       <class name="Testcases.HomepageTestCases">
-        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:56:33 IST" name="driverInitialization" finished-at="2023-09-09T11:56:58 IST" duration-ms="24449" status="PASS">
+        <test-method is-config="true" signature="driverInitialization()[pri:0, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:45:57 IST" name="driverInitialization" finished-at="2023-09-09T15:46:09 IST" duration-ms="12064" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverInitialization -->
-        <test-method signature="draggableItems()[pri:-1, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:56:58 IST" name="draggableItems" finished-at="2023-09-09T11:57:01 IST" duration-ms="3508" status="PASS">
+        <test-method signature="draggableItems()[pri:-1, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:10 IST" name="draggableItems" finished-at="2023-09-09T15:46:11 IST" duration-ms="1343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- draggableItems -->
-        <test-method signature="SliderSearchBox()[pri:1, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:01 IST" name="SliderSearchBox" finished-at="2023-09-09T11:57:02 IST" duration-ms="162" status="PASS">
+        <test-method signature="SliderSearchBox()[pri:1, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:11 IST" name="SliderSearchBox" finished-at="2023-09-09T15:46:11 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SliderSearchBox -->
-        <test-method signature="TotalLinks()[pri:2, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:02 IST" name="TotalLinks" finished-at="2023-09-09T11:57:02 IST" duration-ms="62" status="PASS">
+        <test-method signature="TotalLinks()[pri:2, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:11 IST" name="TotalLinks" finished-at="2023-09-09T15:46:11 IST" duration-ms="59" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TotalLinks -->
-        <test-method signature="AccordianClick()[pri:3, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:02 IST" name="AccordianClick" finished-at="2023-09-09T11:57:03 IST" duration-ms="1546" status="PASS">
+        <test-method signature="AccordianClick()[pri:3, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:11 IST" name="AccordianClick" finished-at="2023-09-09T15:46:12 IST" duration-ms="1238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AccordianClick -->
-        <test-method signature="ClickOnThemes()[pri:4, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:03 IST" name="ClickOnThemes" finished-at="2023-09-09T11:57:07 IST" duration-ms="3559" status="PASS">
+        <test-method signature="ClickOnThemes()[pri:4, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:12 IST" name="ClickOnThemes" finished-at="2023-09-09T15:46:16 IST" duration-ms="3257" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ClickOnThemes -->
-        <test-method signature="AutoCompletetext()[pri:5, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:07 IST" name="AutoCompletetext" finished-at="2023-09-09T11:57:07 IST" duration-ms="259" status="PASS">
+        <test-method signature="AutoCompletetext()[pri:5, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:16 IST" name="AutoCompletetext" finished-at="2023-09-09T15:46:16 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AutoCompletetext -->
-        <test-method signature="RadioInsuranceButton()[pri:6, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:07 IST" name="RadioInsuranceButton" finished-at="2023-09-09T11:57:07 IST" duration-ms="128" status="PASS">
+        <test-method signature="RadioInsuranceButton()[pri:6, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:16 IST" name="RadioInsuranceButton" finished-at="2023-09-09T15:46:16 IST" duration-ms="113" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RadioInsuranceButton -->
-        <test-method signature="JqueryUIiconClick()[pri:7, instance:Testcases.HomepageTestCases@be35cd9]" started-at="2023-09-09T11:57:07 IST" name="JqueryUIiconClick" finished-at="2023-09-09T11:57:32 IST" duration-ms="24523" status="PASS">
+        <test-method signature="JqueryUIiconClick()[pri:7, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:16 IST" name="JqueryUIiconClick" finished-at="2023-09-09T15:46:24 IST" duration-ms="8103" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- JqueryUIiconClick -->
+        <test-method signature="ClickOnForwordScott()[pri:8, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:24 IST" name="ClickOnForwordScott" finished-at="2023-09-09T15:46:24 IST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnForwordScott -->
+        <test-method signature="ClickOnSignInBtn()[pri:9, instance:Testcases.HomepageTestCases@a3d8174]" started-at="2023-09-09T15:46:24 IST" name="ClickOnSignInBtn" finished-at="2023-09-09T15:46:25 IST" duration-ms="84" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.time.temporal.TemporalAmount.addTo(java.time.temporal.Temporal)" because "amountToAdd" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.time.temporal.TemporalAmount.addTo(java.time.temporal.Temporal)" because "amountToAdd" is null
+at java.base/java.time.Instant.plus(Instant.java:788)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:200)
+at Testcases.HomepageTestCases.ClickOnSignInBtn(HomepageTestCases.java:101)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickOnSignInBtn -->
       </class> <!-- Testcases.HomepageTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
