@@ -46,6 +46,14 @@ public class HomePage {
 	@FindBy(xpath="//label[@for=\"insurance\"]")
 	private WebElement RadioBtn;
 	
+	//Click on jquery Ui Icon
+	@FindBy(xpath="//a[@href=\"https://www.manning.com/books/jquery-ui-in-action\"]")
+	private WebElement UiJqr; 
+	
+	
+	
+	
+	
 //----------------	
 	
 	//initialization
@@ -100,6 +108,12 @@ public class HomePage {
 		RadioBtn.click();
 	}
 	
+	
+	
+	public void JqueryUI()
+	{
+		UiJqr.click();
+	}
 	
 
 }

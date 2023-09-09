@@ -58,12 +58,22 @@ public class HomepageTestCases extends Base {
 		hp.AutoText();
 	}
 	
+	@Test(priority = 6)
 	public void RadioInsuranceButton()
 	{
 		HomePage hp = new HomePage(driver);
 		hp.RadioButton();
 	}
 
+	
+	@Test(priority = 7)
+	public void JqueryUIiconClick()
+	{
+		HomePage hp = new HomePage(driver);
+		hp.JqueryUI();
+	}
+	
+	
 	
 	
 	}
