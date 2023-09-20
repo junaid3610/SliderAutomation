@@ -77,12 +77,12 @@ public class HomepageTestCases extends Base {
 		hp.JqueryUI();
 	}
 	
-	@Test(enabled = false)
-	public void HoverToLinks()
-	{
-		HomePage hp = new HomePage(driver);
-		hp.hover();
-	}
+//	@Test(enabled = false)
+//	public void HoverToLinks()
+//	{
+//		HomePage hp = new HomePage(driver);
+//		hp.hover();
+//	}
 	
 	
 	@Test(priority = 8)
@@ -93,13 +93,11 @@ public class HomepageTestCases extends Base {
 	}
 	
 	
-	@Test(enabled = false)
+	@Test(priority = 9)
 	public void ClickOnSignInBtn() 
 	{
-		WebDriverWait wait = new WebDriverWait(driver, null);
-		WebElement clickOn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@class=\\\"header-icon-label\\\"])[8]")));
-		clickOn.click();
-		
+		HomePage hp = new HomePage(driver);	
+		hp.SigIn();
 		
 	}
 	

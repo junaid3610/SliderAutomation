@@ -60,7 +60,7 @@ public class HomePage {
 	@FindBy(xpath="//i[text()=\"Foreword by Scott Gonzalez\"]")
 	private WebElement frwrdscott;
 	
-	@FindBy(xpath="(//span[@class=\"header-icon-label\"])[8]")
+	@FindBy(xpath="(//div[@class=\"header-icon\"])[2]")
 	private WebElement signin;
 	
 	
@@ -126,21 +126,21 @@ public class HomePage {
 	}
 	
 	// Check this code, tell me for updation
-	public void hover()
-	{
-		List<WebElement> links = driver.findElements(By.xpath("//ul[@class=\"list-unstyled\"]/li"));
-		for(int i=0;i<=links.size();i++) 
-		{
-			WebElement link = links.get(i);
-			Actions act = new Actions(driver);
-			act.moveToElement(link);
-			act.build().perform();
-			
-			
-		}
+//	public void hover()
+//	{
+//		List<WebElement> links = driver.findElements(By.xpath("//ul[@class=\"list-unstyled\"]/li"));
+//		for(int i=0;i<=links.size();i++) 
+//		{
+//			WebElement link = links.get(i);
+//			Actions act = new Actions(driver);
+//			act.moveToElement(link);
+//			act.build().perform();
+//			
+//			
+//		}
 	
 	
-	}
+//	}
 	
 	public void forwordclick()
 	{

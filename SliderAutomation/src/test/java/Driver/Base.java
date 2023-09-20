@@ -29,7 +29,7 @@ public class Base {
 //	
 //	}
 	
-	 protected WebDriver driver;
+	protected WebDriver driver;
 	
 	@BeforeClass
 	public WebDriver driverInitialization() 
